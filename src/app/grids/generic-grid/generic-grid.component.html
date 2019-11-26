@@ -1,0 +1,19 @@
+<dx-data-grid *ngIf="isReady"
+              id="gridContainer"
+              [columns]="columns"
+              [dataSource]="dataSource"
+              [showBorders]="true"
+              (onRowClick)="onRowClicked($event)">
+
+    <dxo-filter-row [visible]="showFilterRow"
+                    [applyFilter]="currentFilter">
+    </dxo-filter-row>
+
+    <dxo-header-filter [visible]="showHeaderFilter">
+    </dxo-header-filter>
+
+    <dxo-search-panel [visible]="showQuickSearch"
+                      [width]="240"
+                      placeholder="Search...">
+    </dxo-search-panel>
+</dx-data-grid>

@@ -1,0 +1,31 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#d46fa0",
+        "activityBar.activeBorder": "#3f621d",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#3f621d",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "titleBar.activeBackground": "#c84886",
+        "titleBar.inactiveBackground": "#c8488699",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#c84886",
+        "statusBarItem.hoverBackground": "#d46fa0",
+        "statusBar.foreground": "#e7e7e7"
+    },
+    "peacock.color": "#c84886",
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.maxPreserveNewLines": 1,
+    "cSpell.words": [
+        "bootstraped",
+        "devextreme",
+        "ɵmark",
+        "ɵrender"
+    ],
+}
