@@ -10,7 +10,6 @@ import { GenericGridComponent } from './grids/generic-grid/generic-grid.componen
   declarations: [AppComponent],
   imports: [GridsModule, BrowserModule],
   providers: [],
-  bootstrap: [AppComponent],
   entryComponents: [GenericGridComponent]
 })
 export class AppModule implements DoBootstrap {
